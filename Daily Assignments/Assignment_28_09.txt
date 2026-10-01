@@ -1,0 +1,43 @@
+package day1;
+
+public class Daily_Assignment_28_09_26 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//to print the ASCII values of A,a,0,@
+		
+		char alpha1='A';
+		int num1=alpha1;
+		System.out.println("ASCII value of A="+num1);
+		
+		char alpha2='a';
+		int num2=alpha2;
+		System.out.println("ASCII value of a="+num2);
+		
+		char alpha3='0';
+		int num3=alpha3;
+		System.out.println("ASCII value of 0="+num3);
+		
+		char alpha4='@';
+		int num4=alpha4;
+		System.out.println("ASCII value of @="+num4);
+		
+		
+		//to print the triangle pattern using only system.out.println()statements
+		
+		System.out.println("*");
+		System.out.println("**");
+		System.out.println("***");
+		System.out.println("****");
+		System.out.println("*****");
+		
+		//to print the explicity typecast value and stored value
+		
+		double marks4=10.75;
+		System.out.println(marks4);
+		int num5=(int)marks4;
+		System.out.println(num5);
+	}
+
+}

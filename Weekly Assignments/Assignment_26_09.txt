@@ -1,0 +1,30 @@
+package day1;
+
+public class Weekly_Assignment_26_09 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//program to store and print the employee details
+		int id=1001;
+		int age=28;
+		float salary=55000.50F;
+		char department='T';
+		boolean permanent=true;
+		System.out.println("Employee ID:"+id);
+		System.out.println("Age:"+age);
+		System.out.println("Salary:"+salary);
+		System.out.println("Department:"+department);
+		System.out.println("Permanent:"+permanent);
+		
+		
+		//program to calculate total price using the variables and print
+		
+		float productprice=499.50F;
+		int quantity=3;
+		float totalprice=productprice*quantity;
+		System.out.println("Product Price:"+productprice);
+		System.out.println("Quantity:"+quantity);
+		System.out.println("Total Price:"+totalprice);
+	}
+
+}

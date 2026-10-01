@@ -1,0 +1,28 @@
+package day2;
+
+public class Daily_Assignment_29_09_26 {
+	
+	public static void main(String[] args)
+	{
+		
+		//to check given number is positive or negative
+		
+		int num1=10;
+		if(num1>=0)
+			System.out.println("given number is positive number");
+		else
+			System.out.println("given number is negative number");
+			
+		//to check given number is odd or even number
+		
+		int num=15;
+		if(num%2==0)
+			System.out.println("given number is even number");
+		else
+			System.out.println("given number is odd number");
+		
+		
+	}
+	
+
+}
