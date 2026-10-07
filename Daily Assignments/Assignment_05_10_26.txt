@@ -1,0 +1,57 @@
+package day2;
+
+public class Dailyassignment05_10_26 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//whether a number is a spy number
+		//spy number means if the sum of its digits is equal to the product of its digits
+		
+		int num=1124;
+		int sum=0;
+		int product=1;
+		int original=num;
+		System.out.println("Enter a number: "+num);
+		for(;num>0;)
+		{
+			int lastdigit=num%10;
+			sum=sum+lastdigit;
+			product=product*lastdigit;
+			num=num/10;
+		}
+		System.out.println("Sum of digits = "+sum);
+		System.out.println("Product of digits = "+product);
+		if(sum==product)
+			System.out.println(original+" is a spy number");
+		else
+			System.out.println(original+" is not a spy number");
+		
+		//Magic number program
+		//keep adding the digits until you get a single digit. if the final digit is 1,the number is a magic number
+		
+		int num=172;
+		int original=num;
+		int digitsum=0;
+		int finaldigit=0;
+		System.out.println("Enter a number: "+num);
+		for(;num>0;)
+		{
+			int lastdigit=num%10;
+			digitsum=digitsum+lastdigit;
+			num=num/10;
+		}
+		System.out.println("Digit Sum = "+digitsum);
+		for(;digitsum>0;)
+		{
+			int lastdigit2=digitsum%10;
+			finaldigit=finaldigit+lastdigit2;
+			digitsum=digitsum/10;
+		}
+		System.out.println("Final digit = "+finaldigit);
+		if(finaldigit==1)
+			System.out.println(original+" is a magic number");
+		else
+			System.out.println(original+" is not a magic number");
+	}
+
+}
